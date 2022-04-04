@@ -23,3 +23,4 @@
 
 'use strict';
 
+const numberOffFilms = +prompt("Сколько фильмов вы уже посмотрели?", " ");
