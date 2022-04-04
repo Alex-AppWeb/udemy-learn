@@ -24,3 +24,11 @@
 'use strict';
 
 const numberOffFilms = +prompt("Сколько фильмов вы уже посмотрели?", " ");
+
+const personalMovieDB = {
+    count: numberOffFilms,
+    movies:{},
+    actors:{},
+    genres:[],
+    privat: false
+}
